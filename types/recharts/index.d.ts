@@ -14,6 +14,7 @@
 //                 Leon Ng <https://github.com/iflp>
 //                 Dave Vedder <https://github.com/veddermatic>
 //                 Konstantin Azizov <https://github.com/g07cha>
+//                 Chris Lanus <https://github.com/cqlanus>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.8
 
@@ -847,6 +848,7 @@ export interface TooltipProps extends Animatable {
     itemStyle?: object;
     labelStyle?: object;
     wrapperStyle?: object;
+    contentStyle?: object;
     cursor?: boolean | object | React.ReactElement | React.StatelessComponent<any>;
     coordinate?: Coordinate;
     position?: Coordinate;
